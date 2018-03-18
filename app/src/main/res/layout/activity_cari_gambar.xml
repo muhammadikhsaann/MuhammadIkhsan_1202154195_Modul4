@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.asus.muhammadikhsan_1202154195_modul4.Cari_gambar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:paddingBottom="16dp"
+        android:textAlignment="center"
+        android:text="Cari Gambar" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input URL Here"
+        android:id="@+id/mencari"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="https://pre00.deviantart.net/8f54/th/pre/f/2016/052/a/6/ice_bear_is_rumbly_in_his_tumbly_by_porygon2z-d9sm40c.png" />
+    <Button
+        android:onClick="tombol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:id="@+id/cari"
+        android:text="Klik untuk mencari gambar"
+        android:textAllCaps="false"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/gbr"/>
+</LinearLayout>

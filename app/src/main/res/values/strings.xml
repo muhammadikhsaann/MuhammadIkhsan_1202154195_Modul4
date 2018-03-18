@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MuhammadIkhsan_1202154195_Modul4</string>
+    <string-array name="mahasiswa"> //string yang berisikan nama-nama mahasiswa yang akan dipanggil nanti
+        <item>Muhammad Ikhsan</item>
+        <item>M Gilang Bagaskara</item>
+        <item>Mohamad Afifudin</item>
+        <item>Jimly Asshidiqy</item>
+        <item>Fadhlurrahman Afif</item>
+        <item>Achmad Farhan</item>
+        <item>Syafirah Fauziah</item>
+        <item>Abel Junando</item>
+        <item>Yudha Bhakti Islami</item>
+        <item>Anandika Nur Iman</item>
+        <item>Regina Yusticia Firdaus</item>
+        <item>Kahfi Ahadian</item>
+        <item>Narita Ayu Prhastiwi</item>
+        <item>Lulu Ilmang Suro</item>
+        <item>Astri Mentari Putri</item>
+        <item>Yuna Taira</item>
+    </string-array>
+</resources>
+
